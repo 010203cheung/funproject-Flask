@@ -1,0 +1,14 @@
+# Flask Related
+flask
+gunicorn
+
+# LLM related
+groq
+dotenv
+
+# Machine learning related
+scikit-learn
+joblib
+
+# database related
+pysqlite3
