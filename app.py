@@ -13,5 +13,9 @@ def main():
     name = request.form.get("q")
     return(render_template("main.html"))
 
+@app.route("/chatbot",methods=["GET","POST"])
+def chatbot():
+    return(render_template("chatbot.html"))
+
 if __name__ == "__main__":
     app.run()
